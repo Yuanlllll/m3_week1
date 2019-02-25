@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    >
+
+    <CheckBox
+        android:id="@+id/car_checbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+    <ImageView
+        android:id="@+id/car_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_toRightOf="@id/car_checbox"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/car_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="xxx"
+        android:layout_toRightOf="@id/car_img"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/car_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="xxx"
+        android:layout_toRightOf="@id/car_img"
+        android:paddingLeft="10dp"
+        android:textColor="#f00"
+        android:layout_below="@id/car_title"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+{
+    "des": "歌曲",
+    "music": [
+        {
+            "authorName": "汪峰",
+            "des": "这首歌曲,描述了生命的疯狂",
+            "musicName": "怒放的生命",
+            "path": "music/aa.mp3" 
+	}, 
+	{
+            "authorName": "陈奕迅",
+            "des": "这首歌曲,是陈奕迅的经典之作",
+            "musicName": "十年",
+            "path": "music/ab.mp3"
+	},
+        {
+            "authorName": "那英",
+            "des": "你不懂我伤悲",
+            "musicName": "白天不懂夜的黑",
+            "path": "music/ac.mp3"
+        }
+    ],
+    "requestCode": "200"
+}
